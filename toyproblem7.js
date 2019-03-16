@@ -1,0 +1,33 @@
+const data = [
+    {
+      name:'Josh',
+      age: '26',
+      position: 'Instructor'
+    },
+    {
+      name:'Sam',
+      age: '27',
+      position: 'Mentor'
+    },
+    {
+      name:'Jon',
+      age: '24',
+      position: 'Mentor'
+    },
+    {
+      name:'Dan',
+      age: '25',
+      position: 'Instructor'
+    },
+    {
+      name:'Luis',
+      age: '35',
+      position: 'Student'
+    },
+  ]
+
+  const names = data.map(e => e.name);
+
+  const over25 = data.filter(e => Number(e.age) > 25);
+  
+  const firstLetters = data.reduce((l, e) => l += e.name[0], '');
