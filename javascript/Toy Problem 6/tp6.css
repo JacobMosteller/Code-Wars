@@ -1,0 +1,18 @@
+img{
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 300px;
+}
+body{
+    background-color: hotpink;
+    padding: 30px;
+    padding-top: 0px;
+}
+#title{
+    color :red;
+}
+.main-contain{
+    display: flex;
+    flex-direction : column;
+}
