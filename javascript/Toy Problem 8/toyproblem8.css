@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body{
+    background: white;
+    max-width: 700px;
+    margin: auto;
+  }
+  ​
+  section.top-section {
+    text-align: center;
+    color: white;
+    padding: 34px;
+    background: #e97474;
+  }
+  ​
+  h1 {
+    color: #373737;
+    font-size: 49px;
+    margin: 0px;
+  }
+  ​
+  h2 {
+    margin: 0px;
+    font-family: inherit;
+    font-size: 17px;
+  }
+  section.bottom-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .column {
+    width: 50%;
+  }
+  ​
+  ​
+  .child-box{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+  }
+  ​
+  .number {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    font-size: 35px;
+    color: aliceblue;
+    background: #454545;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  ​
+  .background-image {
+    background-image: url("http://www.stickpng.com/assets/images/5847f5bdcef1014c0b5e489c.png");
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  h4 {
+    margin: 0px;
+    font-size: 22px;
+  }
+  .lg{
+    height: 50%;
+  }
+  ​
+  .blue {
+    background: #4fdcf8;
+  }
+  ​
+  .purple {
+    background: #f822ec;
+  }
+  ​
+  .orange {
+    background: orange;
+  }
+  ​
+  .green {
+    background: #b4d93b;
+  }
+  ​
+  .dark-blue {
+    background: #61a6ff;
+  }
+  ​
+  .blue .number {
+    color: #4fdcf8;
+  }
+  ​
+  .purple .number {
+    color: #f822ec;
+  }
+  ​
+  .orange .number {
+    color: orange;
+  }
+  ​
+  .green .number {
+    color: #b4d93b;
+  }
+  ​
+  .dark-blue .number {
+    color: #61a6ff;
+  }
