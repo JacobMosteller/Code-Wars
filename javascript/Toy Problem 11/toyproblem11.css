@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+}
+.bubble{
+    margin: auto;
+    margin-top: 100px;
+    height: 600px;
+    width: 500px;
+    background-color: aqua;
+    border-radius: 15%;
+    box-shadow: 5px 5px 5px gray;
+}
+.logo{
+    height: 200px;
+    width: 150px;
+}
+#login{
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 30px
+}
+#fillin{
+    height: 200px;
+    width: 150px;
+    display:inline-flex 100px;
+    margin: auto;
+}
